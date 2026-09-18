@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Analytics } from "@vercel/analytics/next"
+
 
 function Menu() {
   const [color, setColor] = useState("wheat");
