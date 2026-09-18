@@ -1,12 +1,13 @@
 import React from "react";
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/next"
 
 function Menu() {
   const [color, setColor] = useState("wheat");
 
   return (
     <div className="w-full h-screen" style={{ backgroundColor: color }}>
-      <div className="fixed flex flex-wrap justify-center top-3 inset-x-0 px-2 ">
+      <div className="fixed flex flex-wrap justify-center md:bottom-10 inset-x-0 px-2 ">
         <div className="flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-full">
           <button
             className="outline-none px-4 py-1 rounded-full shadow-lg text-white"
